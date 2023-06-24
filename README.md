@@ -30,7 +30,7 @@ Ví dụ như khi gửi một tin nhắn, ta có thể yêu cầu hệ thống h
 	```
 	**Intent implicit** chỉ định hành động cần được thực hiện và dữ liệu tùy chọn, cung cấp nội dung cho hành động. Nếu một **intent implicit** được gửi đến hệ thống Android, nó sẽ tìm kiếm tất cả các *component* được đăng ký cho hành động cụ thể và kiểu dữ liệu phù hợp. Nếu chỉ tìm thấy một *component*, Android sẽ khởi động trực tiếp *component* này. Nếu một số *component* được hệ thống Android xác định, người dùng sẽ nhận được hộp thoại lựa chọn và có thể quyết định *component* nào sẽ được sử dụng cho mục đích.
 	
-![photo](android_implicit_intents_process_flow.png)
+	![photo](android_implicit_intents_process_flow.png)
 
 Android hỗ trợ cho **intent explicit** và **intent implicit**. Một ứng dụng có thể xác định thành phần đích (target component) trực tiếp trong **intent (intent explicit)** hoặc yêu cầu hệ thống Android đánh giá các component đã đăng ký dựa trên dữ liệu **intent (intent implicit)**
 
